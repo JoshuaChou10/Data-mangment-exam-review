@@ -163,7 +163,7 @@ const quizQuestions = {
     {
       question: 'Wilma went to a local bike shop. She bought the model she wanted with a choice of 7 blue, 3 red, and 2 green frames. Later the same day, Eduardo purchased one of the remaining models of the same bike. What is the probability that they both purchased blue bikes?',
       answers: ['7/22', '7/24', '49/144', '49/121'],
-      correctAnswer: '49/144'
+      correctAnswer: '7/22'
     },
     {
       question: 'A red die and a green die are rolled. Event A is rolling a sum of 8. Event B is rolling a 5 on the green die. There events are:',
