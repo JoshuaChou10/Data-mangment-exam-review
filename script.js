@@ -313,7 +313,7 @@ const quizQuestions = {
     {
       question: 'A 60-kg person’s body mass index is 30. What is this person\'s height?',
       answers: ['1.8 m', '1.4 m', '1.5 m', '2.0 m'],
-      correctAnswer: '1.5 m'
+      correctAnswer: '1.4 m'
     },
     {
       question: 'When a random starting point is chosen, followed by every nth individual, this sampling method is ___',
@@ -523,6 +523,7 @@ const createQuestions = ({ questions }) => {
       label.appendChild(radioButton);
       label.appendChild(document.createTextNode(answer));
       questionDiv.appendChild(label);
+      questionDiv.appendChild(document.createElement('br'));
     });
 
     document.body.appendChild(questionDiv);
