@@ -196,7 +196,7 @@ const quizQuestions = {
       correctAnswer: '0.5'
     },
     {
-      question: 'The numbers of monitors sold by a computer store on 11 consecutive business days are listed. What are the mean, median, and mode for this set of data? 4, 10, 10, 11, 10, 13, 30, 12, 20, 24',
+      question: 'The numbers of monitors sold by a computer store on 11 consecutive business days are listed. What are the mean, median, and mode for this set of data? 4, 10, 10, 11, 10, 10, 13, 30, 12, 20, 24',
       answers: [
         'Mean 14, median 11, mode 10',
         'Mean 10, median 11, mode 14',
