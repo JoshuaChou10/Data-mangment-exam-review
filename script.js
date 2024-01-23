@@ -173,7 +173,7 @@ const quizQuestions = {
         'Independent and non-mutually exclusive',
         'Dependent and non-mutually exclusive'
       ],
-      correctAnswer: 'Independent and non-mutually exclusive'
+      correctAnswer: 'Dependent and non-mutually exclusive'
     },
     {
       question: 'Adam and his brother are the oldest of three children in the family. What is the probability that their youngest sibling is also a boy?',
