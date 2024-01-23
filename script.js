@@ -246,7 +246,7 @@ const quizQuestions = {
       correctAnswer: 'The interquartile range would remain unchanged'
     },
     {
-      question: 'The number of building permits a town issued each day during a two-week period are listed. What are the mean, median, and mode for this set of data? 9, 13, 20, 19, 23, 13, 13, 16, 25',
+      question: 'The number of building permits a town issued each day during a two-week period are listed. What are the mean, median, and mode for this set of data? 9, 13, 20, 19, 29, 13, 13, 13, 16, 25',
       answers: [
         'Mean 13, median 14.5, mode 17',
         'Mean 14.5, median 17, mode 13',
