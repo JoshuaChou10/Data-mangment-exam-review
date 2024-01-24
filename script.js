@@ -491,6 +491,7 @@ const quizQuestions = {
 };
 
 const createQuestions = ({ questions }) => {
+  let score=0
   questions.forEach((q, index) => {
 
     let questionDiv = document.createElement('div');
@@ -519,15 +520,22 @@ const createQuestions = ({ questions }) => {
   });
 
 };
-
+let score = 0;
+let scoreDisplay = document.createElement('div');
+scoreDisplay.id = 'score-display';
+document.body.appendChild(scoreDisplay);
 const checkQuestion = (userAnswer, correctAnswer,question) => {
+  
   if (userAnswer === correctAnswer) {
     question.style.backgroundColor='#00ff00'
-
+    score++
+   
   } else {
     question.style.backgroundColor='#ff0000';
 
   }
+  scoreDisplay.innerHTML = `${score}/${quizQuestions.length}`;
+
 };
 
 // Example usage:

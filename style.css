@@ -2,3 +2,43 @@ html {
   height: 100%;
   width: 100%;
 }
+body{
+  padding:10px;
+}
+#question-div {
+    margin-top: 30px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Style for the question text (paragraphs) */
+#question-div p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Style for the labels (answer options) */
+#question-div label {
+    display: block; /* Make each label block level for better layout */
+    margin-left: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Style for the radio buttons */
+#question-div input[type='radio'] {
+    margin-right: 5px;
+}
+#score-display {
+    position: fixed; /* Make it sticky */
+    top: 10px;       /* Distance from the top */
+    right: 10px;     /* Distance from the right */
+    border-radius: 50px;
+    background-color: rgb(52, 128, 227);
+    color: white;    /* Text color */
+    padding: 10px 20px; /* Padding inside the score display */
+    font-size: 18px; /* Font size of the score */
+    z-index: 1000;   /* Ensure it's above other elements */
+}
