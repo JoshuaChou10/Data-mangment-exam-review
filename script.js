@@ -355,11 +355,7 @@ const quizQuestions = {
       answers: ['Simple Random', 'Stratified', 'Convenience', 'Systematic', 'Voluntary Response'],
       correctAnswer: 'Voluntary Response'
     },
-    {
-      question: 'Systematic random sampling is used to interview residents in 25% of 80 apartments in a building. The sampling interval would be',
-      answers: ['4', '20', '5', '16'],
-      correctAnswer: '4'
-    },
+    
     {
       question: 'A grocery store owner wishes to know which of the three grocery stores in town is the most frequently visited by the residents of the town. Which of these is an example of a convenience sample?',
       answers: [
@@ -397,7 +393,7 @@ const quizQuestions = {
         'A presumed relationship',
         'A reverse cause and effect relationship'
       ],
-      correctAnswer: 'A presumed relationship'
+      correctAnswer: 'An accidental relationship'
     },
     {
       question: 'Which set of data would probably show a strong positive linear correlation?',
