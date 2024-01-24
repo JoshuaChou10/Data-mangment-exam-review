@@ -534,7 +534,7 @@ const checkQuestion = (userAnswer, correctAnswer,question) => {
     question.style.backgroundColor='#ff0000';
 
   }
-  scoreDisplay.innerHTML = `${score}/${quizQuestions.length}`;
+  scoreDisplay.innerHTML = `${score}/${quizQuestions.questions.length}`;
 
 };
 
