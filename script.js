@@ -425,15 +425,7 @@ const quizQuestions = {
       ],
       correctAnswer: 'The cause must precede the effect'
     },
-    {
-      question: 'Randy works at the animal shelter He has noticed a positive correlation between the number of cats available for adoption and the number of visitors in the shelter. This is likely:',
-      answers: [
-        'An accidental relationship',
-        'A common cause relationship',
-        'A presumed relationship',
-      ],
-      correctAnswer: 'A common cause relationship'
-    },
+    
     {
       question: 'Which set of data would probably show a strong positive linear correlation?',
       answers: [
@@ -472,7 +464,7 @@ const quizQuestions = {
         'A presumed relationship',
         'A reverse cause and effect relationship'
       ],
-      correctAnswer: 'A common cause relationship'
+      correctAnswer: 'A presumed relationship'
     },
     {
       question: 'What is the independent variable in a correlational study of amounts of sunlight and the heights of tomato plants?',
